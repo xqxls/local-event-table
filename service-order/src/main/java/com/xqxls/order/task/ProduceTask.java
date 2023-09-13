@@ -34,7 +34,7 @@ public class ProduceTask {
     @Scheduled(cron="0/5 * * * * ?")
     @Transactional(rollbackFor = Exception.class)
     public void task(){
-        System.out.println("定时任务");
+        log.info("生产者定时任务进行中……");
 
         List<TblOrderEvent> tblOrderEventList = tblOrderEventDao.selectByOrderType("1");
         for (int i = 0; i < tblOrderEventList.size(); i++) {
