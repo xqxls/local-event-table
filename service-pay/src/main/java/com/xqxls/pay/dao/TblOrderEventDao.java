@@ -1,13 +1,18 @@
-package com.xqxls.dao;
+package com.xqxls.pay.dao;
 
-import com.xqxls.entity.TblOrderEvent;
+import com.xqxls.pay.entity.TblOrderEvent;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Mapper
+/**
+ * @Description: 消息消费端 的配置
+ * @Author: huzhuo
+ * @Date: Created in 2023/9/13 11:07
+ */
 @Component
+@Mapper
 public interface TblOrderEventDao {
     int deleteByPrimaryKey(Integer id);
 

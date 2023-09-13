@@ -1,4 +1,4 @@
-package com.xqxls.config;
+package com.xqxls.order.config;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.command.ActiveMQQueue;
@@ -10,8 +10,9 @@ import javax.jms.Queue;
 
 
 /**
- * @author 马士兵教育:chaopengfei
- * @date 2020/7/30
+ * @Description:
+ * @Author: huzhuo
+ * @Date: Created in 2023/9/13 11:07
  */
 @Configuration
 public class ActiveMQConfig {

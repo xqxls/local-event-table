@@ -1,4 +1,4 @@
-package com.xqxls.entity;
+package com.xqxls.order.entity;
 
 import lombok.Data;
 
@@ -6,8 +6,9 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * tbl_order_event
- * @author 
+ * @Description:
+ * @Author: huzhuo
+ * @Date: Created in 2023/9/13 11:07
  */
 @Data
 public class TblOrderEvent implements Serializable {
